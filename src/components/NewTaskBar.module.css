@@ -50,3 +50,9 @@
 .taskBar button:hover {
   background: var(--blue);
 }
+
+@media (max-width: 600px) {
+  .taskBar {
+    grid-template-columns: 1fr;
+  }
+}
