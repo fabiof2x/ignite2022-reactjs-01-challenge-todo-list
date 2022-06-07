@@ -72,6 +72,11 @@
   background-color: var(--purple-dark);
 }
 
+.completed p {
+  color: var(--gray-300);
+  text-decoration:line-through;
+}
+
 .checkbox:checked:hover {
   border-color: var(--purple) ;
   background-color: var(--purple);
