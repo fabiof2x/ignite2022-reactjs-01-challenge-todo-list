@@ -10,7 +10,7 @@
 
   --purple: #8284fa;
   --purple-dark: #5e60ce;
-  --purple: #4ea8de;
+  --blue: #4ea8de;
   --blue-dark: #1e6f9f;
 
   --danger: #e25858;
@@ -18,7 +18,7 @@
 
 :focus {
   outline: transparent;
-  box-shadow: 0 0 0 2px var(--purple-dark);
+  /* box-shadow: 0 0 0 2px var(--purple-dark); */
 }
 
 * {
